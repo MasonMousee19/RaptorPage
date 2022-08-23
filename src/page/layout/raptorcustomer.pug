@@ -1,28 +1,58 @@
-script(type="module" src="../js/custom.js")
-.container__main
+
+.container__main.customer
     .title  
         span Customer Says
         h2 Our statisfied customer says 
         p Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in
+        i 
     .container 
-        .tag__block 
-            .image
-                img(src="./../img/raptorcustomer-slide-1.jpg", alt="")
-            .text
-                p Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts
-            p.style1 Dennis Green
-            span.style2 System Analytics
-        .tag__block
-            .image
-                img(src="./../img/raptorcustomer-slide-2.jpg", alt="")
-            .text
-                p Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts
-            p.style1 Dennis Green
-            span.style2 Makerting Manager   
-        .tag__block
-            .image
-                img(src="./../img/raptorcustomer-slide-3.jpg", alt="")
-            .text
-                p Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts
-            p.style1 Dennis Green
-            span.style2 Interface Designer 
+        .splide.splide-customer(role='group' aria-label='Splide Basic HTML Example')
+            .splide__track
+                ul.splide__list
+                    li.splide__slide 
+                        .tag__block 
+                            .image
+                                img(src="./../img/raptorcustomer-slide-1.jpg", alt="")
+                            .text
+                                p Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts
+                            p.style1 Dennis Green
+                            span.style2 System Analytics
+                    li.splide__slide
+                        .tag__block
+                            .image
+                                img(src="./../img/raptorcustomer-slide-2.jpg", alt="")
+                            .text
+                                p Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts
+                            p.style1 Dennis Green
+                            span.style2 Makerting Manager   
+                    li.splide__slide
+                        .tag__block       
+                            .image
+                                img(src="./../img/raptorcustomer-slide-3.jpg", alt="")
+                            .text
+                                p Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts
+                            p.style1 Dennis Green
+                            span.style2 Interface Designer 
+
+        //- .tag__block 
+        //-     .image
+        //-         img(src="./../img/raptorcustomer-slide-1.jpg", alt="")
+        //-     .text
+        //-         p Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts
+        //-     p.style1 Dennis Green
+        //-     span.style2 System Analytics
+        //- .tag__block
+        //-     .image
+        //-         img(src="./../img/raptorcustomer-slide-2.jpg", alt="")
+        //-     .text
+        //-         p Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts
+        //-     p.style1 Dennis Green
+        //-     span.style2 Makerting Manager   
+        //- .tag__block       
+        //-     .image
+        //-         img(src="./../img/raptorcustomer-slide-3.jpg", alt="")
+        //-     .text
+        //-         p Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts
+        //-     p.style1 Dennis Green
+        //-     span.style2 Interface Designer 
+script(type="module" src="../js/raptorcustomer.js")
