@@ -1,62 +1,8 @@
 
-// html {
-//     font-size: 62.5%;
-//     font-family: 'Roboto', sans-serif;
-// }
 
-// body {
-//     font-size: 1.6rem;
-// }
-// .ftco-section {
-//     position: relative;
-//     width: 100%;
-//     padding: 8em 0;
-//     display: block;
-    
-// }
-    
-// .bg-light {
-//     background: #f8faff !important;
-//     z-index: 0;
-// }
-// .container-big{
-    
-//     max-width: 100%;
-// }
-
-// .pb-5 {
-//     padding-bottom: 3rem !important;
-// }
-
-// .mb-5 {
-//     margin-bottom: 3rem !important;
-// }
-// .content-center{
-//     justify-content: center;
-//     text-align: center !important;
-// }
-// .container-content{
-//     display: flex;
-//     flex-wrap: wrap;
-//     margin-right: -15px;
-//     margin-left: -15px;
-// }
-// .container-content.subheading{
-//         color: #24bdc9;
-// }
-// .text-center {
-//     text-align: center !important;
-// }
-// .ftco-animate {
-//     opacity: 0;
-//     visibility: hidden;
-// }
-// @media (min-width: 768px){}
-// .col-md-7 {
-//     -webkit-box-flex: 0;
-//     flex: 0 0 58.33333%;
-//     max-width: 58.33333%;
-// }
+.mb-5 {
+    margin-bottom: 3rem !important;
+}
 body {
     font-family: "Poppins", Arial, sans-serif;
     background: #fff;
@@ -71,28 +17,10 @@ body {
     padding: 8em 0;
 }
 .bg-light{
-    background: #b9bdc8 !important;
+    // background: #b9bdc8 !important;
     z-index: 0;
 }
 
-// .container{
-//  width: 100%;
-//   padding-right: 15px;
-//   padding-left: 15px;
-//   margin-right: auto;
-//   margin-left: auto; }
-//   @media (min-width: 650px) {
-//     .container {
-//       max-width: 570px; } }
-//   @media (min-width: 768px) {
-//     .container {
-//       max-width: 720px; } }
-//   @media (min-width: 992px) {
-//     .container {
-//       max-width: 960px; } }
-//   @media (min-width: 1200px) {
-//     .container {
-//       max-width: 1140px; } }
 .container-big{
  width: 100%;
   padding-right: 15px;
@@ -179,8 +107,21 @@ p {
     padding-left: 15px;
     padding-right: 15px;
 }}
+.img-entry{
+    background: #fff;
+    box-shadow: 6px 6px 20px -7px rgb(0 0 0 / 75%); 
+}
+
+.ftco-animate{
+    visibility: hidden;
+    opacity: 0;
+}
+.fadeInUp{
+    animation-name: fadeInUp;
+}
+
 .block-20{
-    background-image: url(https://preview.colorlib.com/theme/raptor/images/ximage_1.jpg.pagespeed.ic.BFahnGUw0w.webp);
+    
     position: relative;
     display: block;
     height: 350px;
@@ -189,6 +130,227 @@ p {
     background-size: cover;
 }
 .content-img{
+    padding: 2rem !important;
+    display: block !important;
+}
+
+.mb-3{
+    margin-bottom: 1rem !important;
+
+}   
+.img-entry .text-img > div{
+        display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+.img-entry .text-img > div a:hover{
+        color: white;
+}
+// .img-entry .text-img{
+//     position: relative;
+//     border-top: 0;
+//     border-radius: 2px;
+// }
+.icon-chat:before {
+  content: "\e0b7";
+}
+
+
+.img-entry .text-img > div a{
+    color: #9eaab0;
+    font-size: 15px;   
+}
+.img-entry .content-img .heading a:hover{
+    color: #24bdc9;
+}
+h3{
+    line-height: 1.5;
+    color: #3a4348;
+    font-family: inherit;
+    margin-top: 0;
+    font-weight: 400;
+}
+.img-entry .content-img .heading {
+    font-size: 20px;
+    margin-bottom: 16px;
+}
+.img-entry .content-img .heading a{
+    color: #3a4348;
+}
+a{
+    text-decoration: none;
+    background-color: transparent;
+}
+
+
+.ftco-footer{
+    width: 100%;
+    position: relative;
+    display: block;
+    font-size: 16px;
+    background: #24bdc9;
+    padding: 12em 0 8em 0;
+    background-color: #24bdc9;
+}
+
+.col-md{
+    flex-basis: 0;
+    flex-grow: 1;
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.mb-4{
+    margin-bottom: 1.5rem !important;
+}
+
+.ftco-footer .ftco-heading-2{
+    color: #fff;
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+.ftco-footer p{
+    color: rgba(255, 255, 255, 0.7);
+}
+p{
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+.mt-4{
+    margin-top: 1.5rem !important;
+}
+.btn{
+    display: inline-block;
+    background-color: #fff !important;
+    padding: 16px;
+    border: 2px solid #fff !important;
+    border-radius: 30px;
+    text-align: center;
+    color: #24bdc9;
+    //  width: 130px;
+}
+.p-3{
+    padding: 1.3rem !important;
+}
+.btn.btn-primary{
+    color: #24bdc9;
+}
+
+.list-unstyled{
+    padding-left: 0;
+    list-style: none;
+} 
+.ml-md-5{
+    margin-left: 4rem !important;
+}
+.block-23 ul {
+    padding: 0;
+}
+ul{
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+.ftco-footer a {
+    color: rgba(255, 255, 255, 0.7);}
+.text-2{
+    display: block !important;
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
+}
+.icon-1::before {
+    content: "\f041";
+}
+.icon-2::before {
+    content: "\f095";
+}
+.icon-3::before {
+    content: "\f0e0";
+}
+.icon-4::before {
+    content: "\f017";
+}
+.block-23 ul li {
+    display: table;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+.block-23 ul li .icon {
+    width: 40px;
+    font-size: 18px;
+    padding-top: 2px;
+    color: white;
+}
+.block-23 ul li span {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.icon-twitter::before {
+    content: "\f099";
+}
+// .icon-facebook::before {
+//     content: "\f09a";
+// }
+.icon-instagram::before {
+    content: "\f16d";
+}
+.mt-5{
+    margin-top: 3rem !important;
+}
+.float-left{
+    float: left !important;
+}
+
+.block-23 ul li .icon, .block-23 ul li .text {
+    display: table-cell;
+    vertical-align: top;
+}
+.ftco-footer-social li {
+    list-style: none;
+    margin: 0 10px 0 0;
+    display: inline-block;
+}
+
+.ftco-footer-social li a {
+    height: 50px;
+    width: 50px;
+    display: block;
+    float: left;
+    background: rgba(189, 24, 24, 0.05);
+    border-radius: 50%;
+    position: relative;
+}
+
+.ftco-footer a {
+    color: rgba(255, 255, 255, 0.7);
+}
+.ftco-footer .ftco-footer-widget ul li a span {
+    color: #fff;
+}
+
+.ftco-footer-social li a span {
+    position: absolute;
+    font-size: 26px;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.col-md-12 {
+    
+    flex: 0 0 100%;
+    max-width: 100%;
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
 
 }
-    
+.ftco-footer a:hover{
+    color: #fff;
+}
