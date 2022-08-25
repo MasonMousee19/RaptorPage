@@ -112,10 +112,10 @@ p {
     box-shadow: 6px 6px 20px -7px rgb(0 0 0 / 75%); 
 }
 
-.ftco-animate{
-    visibility: hidden;
-    opacity: 0;
-}
+// .ftco-animate{
+//     visibility: hidden;
+//     opacity: 0;
+// }
 .fadeInUp{
     animation-name: fadeInUp;
 }
@@ -152,9 +152,7 @@ p {
 //     border-top: 0;
 //     border-radius: 2px;
 // }
-.icon-chat:before {
-  content: "\e0b7";
-}
+
 
 
 .img-entry .text-img > div a{
@@ -261,42 +259,25 @@ ul{
     padding-top: 0.5rem !important;
     padding-bottom: 0.5rem !important;
 }
-.icon-1::before {
-    content: "\f041";
-}
-.icon-2::before {
-    content: "\f095";
-}
-.icon-3::before {
-    content: "\f0e0";
-}
-.icon-4::before {
-    content: "\f017";
-}
+
 .block-23 ul li {
     display: table;
     line-height: 1.5;
     margin-bottom: 15px;
+    
 }
 .block-23 ul li .icon {
     width: 40px;
     font-size: 18px;
     padding-top: 2px;
     color: white;
+    padding-top: 0;
 }
 .block-23 ul li span {
     color: rgba(255, 255, 255, 0.7);
 }
 
-.icon-twitter::before {
-    content: "\f099";
-}
-// .icon-facebook::before {
-//     content: "\f09a";
-// }
-.icon-instagram::before {
-    content: "\f16d";
-}
+
 .mt-5{
     margin-top: 3rem !important;
 }
@@ -319,7 +300,7 @@ ul{
     width: 50px;
     display: block;
     float: left;
-    background: rgba(189, 24, 24, 0.05);
+    background: rgba(255,255,255,.05);
     border-radius: 50%;
     position: relative;
 }
@@ -336,12 +317,17 @@ ul{
     font-size: 26px;
     top: 50%;
     left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-}
-.col-md-12 {
+    -webkit-transform: translate(-50%,-50%);
     
+}
+// .fadeInUp{
+//     animation-name: fadeInUp;
+// }
+// .ftco-animated{
+//     animation-duration: .5s;
+//     animation-fill-mode: both;
+// }
+.col-md-12 {
     flex: 0 0 100%;
     max-width: 100%;
     position: relative;
@@ -351,6 +337,12 @@ ul{
     padding-left: 15px;
 
 }
-.ftco-footer a:hover{
+
+.col-md .ftco-footer-widget .list-unstyled .text-2:hover{
     color: #fff;
 }
+
+.row .col-md-12 a:hover {
+    color: #fff;
+}
+
