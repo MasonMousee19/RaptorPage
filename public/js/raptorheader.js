@@ -1,1 +1,0 @@
-let menubtn=document.querySelector(".toggle-menu");menubtn.addEventListener("click",e=>{let t=document.querySelector(".nav-menu");t.classList.contains("menu-is-actived")?t.classList.remove("menu-is-actived"):t.classList.add("menu-is-actived")});
