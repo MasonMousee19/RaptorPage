@@ -79,7 +79,10 @@
         width: 100%;
     }
     .splide__arrow--prev {
-        left: -2em;
+        left: -2.5em;
+    }
+    .splide__arrow--next {
+        right: -1em;
     }
 }
 @media (max-width:670px){
